@@ -58,7 +58,7 @@ existing_cert_key="${existing_cert_dir}/${pico_to_mqtt_prefix}.key"
 if [[ ! -d "$existing_cert_dir" ]] \
   || [[ ! -f "$existing_cert_key" ]] \
   || [[ ! -f "$existing_cert" ]]; then
-  echoerr "the desired version of the ${pico_to_mqtt_preix} is missing a required component. Exiting now"
+  echoerr "the desired version of the ${pico_to_mqtt_prefix} is missing a required component. Exiting now"
   exit 1
 fi
 
