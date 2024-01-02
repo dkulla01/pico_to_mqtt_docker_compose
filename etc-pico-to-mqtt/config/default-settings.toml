@@ -2,9 +2,9 @@
 [pico-to-mqtt]
 
 [pico-to-mqtt.mqtt-config]
-path_to_mqtt_client_cert =  "/etc/pico-to-mqtt/ssl/certs/pico-to-mqtt-client.crt"
-path_to_mqtt_client_key =  "/etc/pico-to-mqtt/ssl/certs/pico-to-mqtt-client.key"
-path_to_mqtt_client_ca =  "/etc/pico-to-mqtt/ssl/root-cert/pihome-ca.pem"
+path_to_mqtt_client_cert = "/etc/pico-to-mqtt/ssl/certs/pico-to-mqtt.crt"
+path_to_mqtt_client_key = "/etc/pico-to-mqtt/ssl/certs/pico-to-mqtt.key"
+path_to_mqtt_client_ca = "/etc/pico-to-mqtt/ssl/root-cert/pihome-ca.pem"
 hostname = "pihome.run"
 port = 8883
 
@@ -12,4 +12,4 @@ port = 8883
 caseta_bridge_hostname = "caseta.run"
 path_to_caseta_client_cert = "/etc/pylutron-caseta/ssl/certs/caseta.run.crt"
 path_to_caseta_client_key = "/etc/pylutron-caseta/ssl/certs/caseta.run.key"
-path_to_caseta_client_ca= "/etc/pylutron-caseta/ssl/certs/caseta.run-bridge.crt"
+path_to_caseta_client_ca = "/etc/pylutron-caseta/ssl/certs/caseta.run-bridge.crt"
