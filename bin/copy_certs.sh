@@ -52,7 +52,7 @@ fi
 versioned_cert_dir="${SSL_CERTS_DIR}/cert-${CERT_VERSION}"
 pico_to_mqtt_prefix='pico-to-mqtt'
 existing_cert_dir="${versioned_cert_dir}/${pico_to_mqtt_prefix}"
-existing_cert="${existing_cert_dir}/${pico_to_mqtt_prefix}.key"
+existing_cert="${existing_cert_dir}/${pico_to_mqtt_prefix}.crt"
 existing_cert_key="${existing_cert_dir}/${pico_to_mqtt_prefix}.key"
 
 if [[ ! -d "$existing_cert_dir" ]] \
